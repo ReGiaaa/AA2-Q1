@@ -1,0 +1,295 @@
+body{
+background-color:#e6ffff;
+}
+#header{
+display: flex;
+justify-content: space-between;
+width: 100%
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.pic {
+float: left;
+clear: right;
+max-width: 100%;
+height: auto;
+border: 3px solid blue;
+}
+
+.pic2{
+float: left;
+clear: left;
+max-width: 100%;
+height: auto;
+border: 3px solid blue;
+}
+
+.pic3{
+float: left;
+clear: left;
+max-width: 100%;
+height: auto;
+border: 3px solid pink;
+}
+
+.pic4{
+float: left;
+clear: left;
+max-width: 100%;
+height: auto;
+border: 3px solid pink;
+}
+
+.pic5{
+float: left;
+clear: left;
+max-width: 100%;
+height: auto;
+border: 3px solid blue;
+}
+
+#menu-home:link{
+color: #0000ff;
+text-decoration: none;
+}
+
+#menu-characters:link{
+text-decoration: none;
+color: #0000ff;
+}
+
+#menu-contacts:link{
+text-decoration: none;
+color: #0000ff;
+}
+
+#menu-about:link{
+text-decoration: none;
+color: #0000ff;
+}
+
+#menu-home:visited{
+color: #000000;
+text-decoration: none;
+}
+
+#menu-characters:visited{
+text-decoration: none;
+color: #000000;
+}
+
+#menu-contacts:visited{
+text-decoration: none;
+color: #000000;
+}
+
+#menu-about:visited{
+text-decoration: none;
+color: #000000;
+}
+
+#menu-home:hover{
+color: #ffffff;
+background-color: #13d8ff;
+text-decoration: none;
+}
+
+#menu-characters:hover{
+text-decoration: none;
+color: #ffffff;
+background-color: #13d8ff;
+}
+
+#menu-contacts:hover{
+text-decoration: none;
+color: #ffffff;
+background-color: #13d8ff;
+}
+
+#menu-about:hover{
+text-decoration: none;
+color: #ffffff;
+background-color: #13d8ff;
+}
+
+.intro {
+color: blue;
+text-align: center;
+background-color: #b3ffff;
+height: 20px;
+}
+#menu-home:hover{
+color: #ffffff;
+background-color: #13d8ff;
+text-decoration: none;
+}
+
+#menu-characters:hover{
+text-decoration: none;
+color: #ffffff;
+background-color: #13d8ff;
+}
+
+#menu-contacts:hover{
+text-decoration: none;
+color: #ffffff;
+background-color: #13d8ff;
+}
+
+#menu-about:hover{
+text-decoration: none;
+color: #ffffff;
+background-color: #13d8ff;
+}
+
+#menu-home:active{
+color: #99ffcc;
+background-color: #ffff99;
+text-decoration: none;
+}
+
+#menu-characters:active{
+text-decoration: none;
+color: #99ffcc;
+background-color: #ffff99;
+}
+
+#menu-contacts:active{
+text-decoration: none;
+color: #99ffcc;
+background-color: #ffff99;
+}
+
+#menu-about:active{
+text-decoration: none;
+color: #99ffcc;
+background-color: #ffff99;
+}
+.pfp{
+max-width: 100%;
+height: auto;
+transform: scaleX(2);
+}
+
+.pfp2{
+max-width: 100%;
+height: auto;
+}
+
+.pfp3{
+max-width: 100%;
+height: auto;
+}
+
+.pfp4{
+max-width: 100%;
+height: auto;
+}
+
+.pfp5{
+max-width: 100%;
+height: auto;
+transform: scaleX(2);
+}
+
+.call{
+background: url("Images/logo3.png") no-repeat -193px -51px;
+width: 19px;
+height: 18px;
+}
+
+.call:hover{
+background: url("Images/logo3.png") no-repeat -194px -147px;
+width: 17px;
+height: 17px;
+}
+
+.fb{
+background: url("Images/logo3.png") no-repeat -29px -51px;
+width: 18px;
+height: 17px;
+}
+
+.fb:hover{
+background: url("Images/logo3.png") no-repeat -34px -146px;
+width: 10px;
+height: 18px;
+}
+
+.vid{
+background: url("Images/logo3.png") no-repeat -226px -51px;
+width: 18px;
+height: 18px;
+}
+
+.vid:hover{
+background: url('Images/logo3.png') no-repeat -227px -149px;
+width: 18px;
+height: 13px;
+}
+
+.data{
+float: left;
+clear: both;
+background-color: #ffffff;
+border: 3px solid black;
+}
+
+.data2{
+float: left;
+clear: both;
+background-color: #ffffff;
+border: 3px solid black;
+}
+
+.data3{
+float: left;
+clear: both;
+background-color: #ffffff;
+border: 3px solid black;
+}
+
+.question{
+text-align:center; 
+background-color:lightblue;
+}
+
+#answer{
+border: 3px solid black; 
+text-align:center; 
+background-color:#ffffff; 
+}
+
+#answer2{
+border: 3px solid black; 
+text-align:center; 
+background-color:#ffffff; 
+}
+
+#quote{
+color: red;
+text-align:center;
+}
+
+.close{
+color: red;
+float: right;
+}
+
+.sign{
+color: red;
+float: right;
+clear: both;
+}
+
+.warning{
+text-align:center;
+}
